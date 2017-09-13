@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pedra Papel Tesoura!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+        crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+
+                    <h3>Pedra Papel e Tesoura! <small>Joguim Simples</small></h3>
+
+                    <!-- Imagem -->
+                    <img id="showImg" class="img-rounded img-responsive" src="rockpaper.jpg">
+                    <br>
+
+                    <!-- Mensagem de vitória -->
+                    <h3 id="msgVitoria"><!-- Mensagem vai aqui --></h3>
+                    <br>
+
+                    <!-- Botões de escolha -->
+                    <div id="showBtns">
+                        <button id="btnPedra" type="button" class="btn btn-primary btn-space">
+                            Pedra
+                        </button>
+
+                        <button id="btnPapel" type="button" class="btn btn-warning btn-space">
+                            Papel
+                        </button>
+
+                        <button id="btnTesoura" type="button" class="btn btn-danger btn-space">
+                            Tesoura
+                        </button>
+                    </div>
+
+                    <!-- Botão de repetir o jogo, posso colocar na div principal
+                        de botões -->
+                    <div id="repetirBtn">
+                        <button type="button" class="btn btn-primary btn-lg">
+                            Repetir Jogo broder
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+                
+        </div>
+    
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
